@@ -1,4 +1,4 @@
-## Bencium is an AI Adoption Consultancy. They offer a range of AI-related services to help businesses leverage the power of artificial intelligence.
+## Bencium is an AI Adoption Consultancy. We offer a range of AI-related services to help businesses take advantage of artificial intelligence.
 
 [bencium.io](https://www.bencium.io)
 
