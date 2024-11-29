@@ -6,226 +6,335 @@
     <meta content="Terms and Conditions" property="og:title">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     
-    <!-- Stylesheets remain the same as before -->
+    <!-- Stylesheet links -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/webflow.css" rel="stylesheet">
+    <link href="css/bencium-2024.webflow.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/webclip.png" rel="apple-touch-icon">
     
     <style>
-        /* Previous styles remain the same */
-
-        /* Additional improvements */
-        .section-nav {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-color);
+        /* Exact same base styles as privacy.html */
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #ffffff;
+            --secondary-bg: #f8fafc;
+            --border-color: #e5e7eb;
+            --accent-color: #3b82f6;
         }
 
-        .section-nav-button {
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--secondary-bg);
+            margin: 0;
+            padding-top: 64px;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: var(--bg-color);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            z-index: 1000;
+            padding: 1rem 0;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .navbar-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-logo {
+            height: 40px;
+            width: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .navbar-logo:hover {
+            transform: scale(1.05);
+        }
+
+        .navbar-menu {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .navbar-link {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        .navbar-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-color);
+            transition: width 0.3s ease;
+        }
+
+        .navbar-link:hover::after {
+            width: 100%;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .terms-content {
+            background: var(--bg-color);
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            margin-top: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 2rem;
+            text-align: center;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: var(--accent-color);
+            border-radius: 2px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 500;
+            color: #2d3748;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            transition: color 0.3s ease;
+        }
+
+        h2:hover {
+            color: var(--accent-color);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: #4a5568;
+            line-height: 1.8;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.5s ease forwards;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section:nth-child(n) {
+            animation-delay: calc(0.1s * var(--i));
+        }
+
+        /* Cookie consent and back-to-top styles from privacy.html */
+        .cookie-consent {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--bg-color);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            max-width: 400px;
+            width: 90%;
+            z-index: 1000;
+            display: none;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--accent-color);
+            color: white;
+            padding: 0.75rem 1.25rem;
+            border-radius: 6px;
+            text-decoration: none;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            padding: 0.75rem 1.25rem;
-            background: var(--bg-color);
-            border: 1px solid var(--border-color);
-            border-radius: 6px;
-            color: var(--text-color);
-            text-decoration: none;
-            transition: all 0.2s ease;
         }
 
-        .section-nav-button:hover {
-            background: var(--secondary-bg);
-            transform: translateY(-2px);
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-
-        .reading-progress {
-            position: fixed;
-            top: 64px;
-            left: 0;
-            width: 100%;
-            height: 3px;
-            background: var(--border-color);
-            z-index: 1000;
-        }
-
-        .reading-progress-bar {
-            height: 100%;
-            background: var(--accent-color);
-            width: 0%;
-            transition: width 0.2s ease;
-        }
-
-        .summary-box {
-            background: var(--secondary-bg);
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin: 2rem 0;
-            border: 1px solid var(--border-color);
-        }
-
-        .summary-box h3 {
-            margin-top: 0;
-            color: var(--accent-color);
-            font-size: 1.2rem;
-        }
-
-        .summary-box ul {
-            margin: 0;
-            padding-left: 1.5rem;
-        }
-
-        .summary-box li {
-            margin-bottom: 0.5rem;
-        }
-
-        /* Enhanced accordion styles for mobile */
+        /* Mobile styles */
         @media (max-width: 768px) {
-            .section h2 {
-                cursor: pointer;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
+            .container {
+                padding: 1rem;
             }
 
-            .section h2::after {
-                content: '+';
+            .terms-content {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
                 font-size: 1.5rem;
-                color: var(--accent-color);
             }
 
-            .section.active h2::after {
-                content: '-';
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a1a;
+                --text-color: #e5e5e5;
+                --secondary-bg: #2d2d2d;
+                --border-color: #404040;
             }
 
-            .section-content {
-                display: none;
+            .navbar {
+                background-color: rgba(26, 26, 26, 0.9);
             }
 
-            .section.active .section-content {
-                display: block;
-                animation: fadeIn 0.3s ease;
+            .section {
+                background: var(--bg-color);
+            }
+
+            h1, h2 {
+                color: #ffffff;
+            }
+
+            p {
+                color: #d1d1d1;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Navbar remains the same -->
-
-    <div class="reading-progress">
-        <div class="reading-progress-bar" id="readingProgress"></div>
-    </div>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html">
+                <img src="images/3.jpg" alt="Bencium Logo" class="navbar-logo">
+            </a>
+            <div class="navbar-menu">
+                <a href="index.html" class="navbar-link">Home</a>
+                <a href="privacy.html" class="navbar-link">Privacy Policy</a>
+            </div>
+        </div>
+    </nav>
 
     <div class="container">
         <div class="terms-content">
             <h1>Terms and Conditions</h1>
 
-            <div class="summary-box">
-                <h3>Key Points Summary</h3>
-                <ul>
-                    <li>These terms govern your use of Bencium's website and services</li>
-                    <li>You must be at least 18 years old to use our services</li>
-                    <li>All content on this website is protected by intellectual property rights</li>
-                    <li>We may update these terms from time to time</li>
-                </ul>
-            </div>
-
-            <!-- Previous sections remain with added structure -->
-            <section id="introduction" class="section terms-section" style="--i: 1">
+            <div class="section" style="--i: 1">
                 <h2>Introduction</h2>
-                <div class="section-content">
-                    <p>Registered in England & Wales No. 09494591 • "Bencium" is a registered trademark of Bencium Limited in the UK</p>
-                    <!-- Rest of introduction content -->
-                </div>
-            </section>
-
-            <section id="intellectual-property" class="section terms-section" style="--i: 2">
-                <h2>Intellectual Property Rights</h2>
-                <div class="section-content">
-                    <p>All Content included on the Website is the property of Bencium Limited, our affiliates or other relevant third parties.</p>
-                    <!-- Rest of IP content -->
-                </div>
-            </section>
-
-            <section id="prohibited-use" class="section terms-section" style="--i: 3">
-                <h2>Prohibited Use</h2>
-                <div class="section-content">
-                    <p>You may not use the Website for any of the following purposes:</p>
-                    <ul class="terms-list">
-                        <li>In any way which causes damage to the Website</li>
-                        <li>In any way which is harmful, unlawful, illegal, abusive, harassing, threatening</li>
-                        <li>Making unauthorized copies of protected content</li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Add more sections -->
-
-            <div class="section-nav">
-                <a href="#" class="section-nav-button" id="prevSection">← Previous Section</a>
-                <a href="#" class="section-nav-button" id="nextSection">Next Section →</a>
+                <p>Registered in England & Wales No. 09494591 • "Bencium" is a registered trademark of Bencium Limited in the UK</p>
+                <p>These terms and conditions apply between you, the User of this Website (including any sub-domains, unless expressly excluded by their own terms and conditions) and Bencium Limited, the owner and operator of this Website.</p>
             </div>
 
-            <p class="last-updated">Last updated: November 29, 2024</p>
+            <div class="section" style="--i: 2">
+                <h2>Intellectual Property and Acceptable Use</h2>
+                <p>All Content included on the Website is the property of Bencium Limited, our affiliates or other relevant third parties. In these terms and conditions, Content means any text, graphics, images, audio, video, software, data compilations, page layout, underlying code and software and any other form of information capable of being stored in a computer that appears on or forms part of this Website.</p>
+            </div>
+
+            <div class="section" style="--i: 3">
+                <h2>Prohibited Use</h2>
+                <p>You may not use the Website for any of the following purposes:</p>
+                <p>a. in any way which causes, or may cause, damage to the Website or interferes with any other person's use or enjoyment of the Website;</p>
+                <p>b. in any way which is harmful, unlawful, illegal, abusive, harassing, threatening or otherwise objectionable;</p>
+                <p>c. making, transmitting or storing electronic copies of Content protected by copyright without the permission of the owner.</p>
+            </div>
+
+            <!-- Additional sections continue... -->
         </div>
     </div>
 
-    <!-- Previous cookie consent and back-to-top button remain -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 3L14 9L12.6 10.4L8 5.8L3.4 10.4L2 9L8 3Z" fill="currentColor"/>
+        </svg>
+        Back to Top
+    </button>
 
     <script>
-        // Previous scripts remain
+        // Back to Top button functionality
+        const backToTopButton = document.getElementById('backToTop');
 
-        // Reading progress bar
-        function updateReadingProgress() {
-            const winHeight = window.innerHeight;
-            const docHeight = document.documentElement.scrollHeight - winHeight;
-            const scrolled = window.scrollY;
-            const progress = (scrolled / docHeight) * 100;
-            document.getElementById('readingProgress').style.width = progress + '%';
-        }
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+        });
 
-        window.addEventListener('scroll', updateReadingProgress);
-
-        // Mobile accordion functionality
-        if (window.innerWidth <= 768) {
-            const sections = document.querySelectorAll('.section');
-            sections.forEach(section => {
-                const title = section.querySelector('h2');
-                title.addEventListener('click', () => {
-                    section.classList.toggle('active');
-                });
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
             });
-        }
-
-        // Section navigation
-        const sections = document.querySelectorAll('section');
-        const prevButton = document.getElementById('prevSection');
-        const nextButton = document.getElementById('nextSection');
-
-        function updateNavigationButtons() {
-            const currentSection = Array.from(sections).findIndex(section => {
-                const rect = section.getBoundingClientRect();
-                return rect.top <= 100 && rect.bottom > 100;
-            });
-
-            prevButton.style.visibility = currentSection > 0 ? 'visible' : 'hidden';
-            nextButton.style.visibility = currentSection < sections.length - 1 ? 'visible' : 'hidden';
-
-            prevButton.onclick = () => {
-                if (currentSection > 0) {
-                    sections[currentSection - 1].scrollIntoView({ behavior: 'smooth' });
-                }
-            };
-
-            nextButton.onclick = () => {
-                if (currentSection < sections.length - 1) {
-                    sections[currentSection + 1].scrollIntoView({ behavior: 'smooth' });
-                }
-            };
-        }
-
-        window.addEventListener('scroll', updateNavigationButtons);
-        updateNavigationButtons();
+        });
     </script>
 </body>
 </html>
