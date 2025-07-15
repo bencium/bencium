@@ -7,7 +7,7 @@
 I specialize in agentic systems development, AI-first engineering, and human-centered design. With over 15 years of experience in product design and a deep focus on AI integration, I help build and implement practical AI solutions that drive real business value.
 
 London, UK | 📧 ben@bencium.io | [GitHub](https://github.com/bencium) | [LinkedIn](https://www.linkedin.com/in/bencecsernak)
-|  [Portfolio](https://benciumagenticapps.framer.website) | [Website](https://bencium.io)
+| [Website](https://bencium.io)
 
 ### 🛠️ Technical Expertise
 
