@@ -2,7 +2,7 @@
 
 [bencium.io](https://www.bencium.io)
 
-## AI Design and Build
+## AI Architecture, Engineering, Design and Build
 
 I specialize in agentic systems development, AI-first engineering, and human-centered design. With over 15 years of experience in product design and a deep focus on AI integration, I help build and implement practical AI solutions that drive real business value.
 
@@ -36,5 +36,7 @@ London, UK | 📧 ben@bencium.io | [GitHub](https://github.com/bencium) | [Linke
 
 
 💡 Open to collaborations and consulting opportunities in AI innovation and enterprise transformation.
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ruvnet/ruvector)
 
 
