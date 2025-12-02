@@ -37,6 +37,6 @@ London, UK | 📧 ben@bencium.io | [GitHub](https://github.com/bencium) | [Linke
 
 💡 Open to collaborations and consulting opportunities in AI innovation and enterprise transformation.
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ruvnet/ruvector)
+
 
 
