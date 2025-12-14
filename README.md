@@ -32,7 +32,7 @@ London, UK | 📧 ben@bencium.io | [GitHub](https://github.com/bencium) | [Linke
 ### 🤝 Let's Connect
 
 - 🔗 LinkedIn: [linkedin.com/in/bencecsernak](https://www.linkedin.com/in/bencecsernak)
-- 🗓️ Book a Call: [calendly.com/bencium](https://cal.com/bence/30min)
+- 🗓️ Book a Call: [calendly.com/bencium](https://calendly.com/bencium)
 
 
 💡 Open to collaborations and consulting opportunities in AI innovation and enterprise transformation.
