@@ -33,7 +33,7 @@ I combine practical AI engineering, product design and strategic leadership. I d
 
 ### 🚀 Current Work
 
-- **Cognitum**: Applied Agentic AI Engineer
+- **Cognitum**: Applied Agentic AI Engineer and Consultant
 - **MedHubAI**: Co-Founder and CTO. Production conversational agents for clinic operations that cut patient no-shows by about 35%, with evaluation for clinical safety, accuracy, hallucination risk and compliance
 - **brandguideAI**: Co-Founder and Agentic AI Engineer. Conversational brand-building platform with multimodal RAG over 1,000+ PDF pages and 90%+ relevant source attribution
 - **Agentics Foundation**: Board Member, London Chapter Co-Founder, Research Committee Chair, Educator
