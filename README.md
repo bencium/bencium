@@ -44,7 +44,7 @@ I combine practical AI engineering, product design and strategic leadership. I d
 - **Agentics Foundation**: Board Member, London Chapter Co-Founder, Research Committee Chair, Educator
 - **AnnaAI**: Peer-reviewed non-profit research on an empathic AI assistant for cancer patients
 
-Recent: Agentic AI context engineering instructor for enterprise developer cohorts (Banyan Software), enterprise AI automation trainer (Hunter Douglas Group).
+Recent: enterprise AI automation trainer (Hunter Douglas Group).
 
 ### 🏦 Background
 
@@ -60,7 +60,7 @@ Trusted by teams at EY, HSBC, NatWest Markets, BNY Mellon, Coca-Cola, Publicis S
 - **Service Design Day Budapest (Oct 2025)**: Designing the full patient journey with AI agents
 - **PromptUX Berlin (Apr 2025)**: featured speaker, Security and Compliance in the EU
 - **Agentics Foundation**: workshops, London meetups and hackathons
-- **Training**: HelloYellow AI Bootcamp, Prjctr Institute design leader AI workshop, SEEN Group staff training, Pollen Network "Demystifying AI" series; mentor at Designlab since 2016
+- **Training**: Banyan Software agentic AI and context engineering course (6-week remote cohorts of 20–60 enterprise developers, 2026); TechNativeDigital in-person, government-funded AI transformation course for developers; HelloYellow AI Bootcamp; Prjctr Institute design leader AI workshop; SEEN Group staff training
 - **Research**: AnnaAI peer-reviewed paper, indexed in PubMed and Google Scholar
 - **Earlier**: first AI talk "Banking and UX: A Design Revolution" on emotional UI at The Trampery, London (May 2017); Lloyds Bank Innovation Lab and UX Crunch (2017); Techstars mentor (2015)
 
