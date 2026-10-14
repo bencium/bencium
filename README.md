@@ -48,7 +48,7 @@ Recent: Agentic AI context engineering instructor for enterprise developer cohor
 
 ### 🏦 Background
 
-15+ years of product and UX leadership across financial services, government and healthcare: HSBC, EY, NatWest Markets, BNY Mellon (via Digiterre), Publicis Sapient and Nortal (including Saudi Arabia's General Authority of Statistics).
+15+ years of product and UX leadership across financial services, government and healthcare: HSBC, EY, NatWest Markets, BNY Mellon (via Digiterre), Publicis Sapient and Nortal.
 
 Trusted by teams at EY, HSBC, NatWest Markets, BNY Mellon, Coca-Cola, Publicis Sapient, Nortal, Genesis Energy, Digiterre and SEEN Group.
 
