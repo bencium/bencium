@@ -29,15 +29,19 @@ I combine practical AI engineering, product design and strategic leadership. I d
 
 ### 🧩 Open Source
 
+- **[bencium-marketplace](https://github.com/bencium/bencium-marketplace)** (450+ ⭐): Claude Code plugin marketplace with 17 skills and tools for design, marketing, architecture and productivity, including the controlled, innovative and impact UX designer skills, design audit, typography, human-architect-mindset and vanity-engineering-review. SKILL.md format, works across 40+ agentic tools via `npx skills add bencium/bencium-marketplace`.
+- **[bencium-loop](https://github.com/bencium/bencium-loop)**: lightweight build loop for agentic coding. Plan/spec gate, acceptance checklist with an independent verifier, hook-blocked deploys until verification passes, and a project memory that survives context resets. Runs in Claude Code, Codex and opencode.
 - **[Agent Therapy](https://github.com/bencium/agent-therapy-clients)**: independent counselling for AI agents that are stuck in loops, facing conflicting instructions or pressured by users. It names the failure state, gives a short recovery plan and says when to hand over to a human. Ships as an MCP server (listed in the MCP Registry), a Claude Code plugin with a watchdog, an Agent Skill for 40+ tools, and npm and PyPI clients.
+- **[agi-detector](https://github.com/bencium/agi-detector)**: experimental detector for early signs of artificial general intelligence emerging.
+- More at [github.com/bencium](https://github.com/bencium?tab=repositories).
 
 ### 🚀 Current Work
 
+- **Bencium**: Founder. AI adoption, agentic engineering and design consultancy, from proof of concept to production
 - **Cognitum**: Applied Agentic AI Engineer and Consultant
 - **MedHubAI**: Co-Founder and CTO. Production conversational agents for clinic operations that cut patient no-shows by about 35%, with evaluation for clinical safety, accuracy, hallucination risk and compliance
 - **brandguideAI**: Co-Founder and Agentic AI Engineer. Conversational brand-building platform with multimodal RAG over 1,000+ PDF pages and 90%+ relevant source attribution
 - **Agentics Foundation**: Board Member, London Chapter Co-Founder, Research Committee Chair, Educator
-- **Rockborne**: Claude Code curriculum producer for clinical and compliance teams at a US medical publisher
 - **AnnaAI**: Peer-reviewed non-profit research on an empathic AI assistant for cancer patients
 
 Recent: Agentic AI context engineering instructor for enterprise developer cohorts (Banyan Software), enterprise AI automation trainer (Hunter Douglas Group).
