@@ -39,7 +39,7 @@ I combine practical AI engineering, product design and strategic leadership. I d
 
 - **[Bencium](https://www.bencium.io)**: Founder. AI adoption, agentic engineering and design consultancy, from proof of concept to production
 - **[Cognitum](https://cognitum.one)**: Applied Agentic AI Engineer and Consultant
-- **MedHubAI**: Co-Founder and CTO. Production conversational agents for clinic operations that cut patient no-shows by about 35%, with evaluation for clinical safety, accuracy, hallucination risk and compliance
+- **[MedHubAI](https://medhubai.pro)**: Co-Founder and CTO. Production conversational agents for clinic operations that cut patient no-shows by about 35%, with evaluation for clinical safety, accuracy, hallucination risk and compliance
 - **[brandguideAI](https://ai.brandguide.me)**: Co-Founder and Agentic AI Engineer. Conversational brand-building platform with multimodal RAG over 1,000+ PDF pages and 90%+ relevant source attribution
 - **[Agentics Foundation](https://agentics.org)**: Board Member, London Chapter Co-Founder, Research Committee Chair, Educator
 - **[AnnaAI](https://anna.onkopszichologia.hu)**: Peer-reviewed non-profit research on an empathic AI assistant for cancer patients
