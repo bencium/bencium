@@ -2,9 +2,7 @@
 
 ### Bence Csernak
 
-**Applied Agentic AI Engineer @ Cognitum | Ex-HSBC, EY | Co-founder and Board Member, Agentics Foundation**
-
-AI adoption advisor for leaders. I take AI from pilot to daily use your team trusts.
+**AI adoption advisor for leaders. I take AI from pilot to daily use your team trusts | Applied Agentic AI Engineer @ Cognitum | Ex-HSBC, EY | Co-founder and Board Member, Agentics Foundation**
 
 *AI Architecture, Engineering, Design and Build*
 
@@ -46,7 +44,7 @@ Recent: Agentic AI context engineering instructor for enterprise developer cohor
 
 ### 🏦 Background
 
-Product and UX leadership since 2015 across financial services, government and healthcare: HSBC, EY, NatWest Markets, BNY Mellon (via Digiterre), Publicis Sapient and Nortal (including Saudi Arabia's General Authority of Statistics).
+15+ years of product and UX leadership across financial services, government and healthcare: HSBC, EY, NatWest Markets, BNY Mellon (via Digiterre), Publicis Sapient and Nortal (including Saudi Arabia's General Authority of Statistics).
 
 Trusted by teams at EY, HSBC, NatWest Markets, BNY Mellon, Coca-Cola, Publicis Sapient, Nortal, Genesis Energy, Digiterre and SEEN Group.
 
