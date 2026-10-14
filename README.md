@@ -68,6 +68,7 @@ Writing: [weekly Substack](https://bencium.substack.com) on practical AI for bui
 
 - 🔗 LinkedIn: [linkedin.com/in/bencecsernak](https://www.linkedin.com/in/bencecsernak)
 - 🌐 Website: [bencium.io](https://www.bencium.io)
+- 🗓️ Book a Call: [calendar.proton.me/bookings](https://calendar.proton.me/bookings#Crj2lSA2EkchwWURjuFDzvEOD-ExdqpHKXwfMOmYYHk=)
 - 📧 Email: ben@bencium.io
 
 💡 Open to advisory, consulting and collaboration on AI adoption and agentic systems.
