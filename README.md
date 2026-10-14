@@ -2,7 +2,7 @@
 
 ### Bence Csernak
 
-**AI adoption advisor for leaders. I take AI from pilot to daily use your team trusts | Applied Agentic AI Engineer @ Cognitum | Ex-HSBC, EY | Co-founder and Board Member, Agentics Foundation**
+**Applied Agentic AI Engineer and Consultant @ Cognitum | AI adoption advisor for leaders. I take AI from pilot to daily use your team trusts | Ex-HSBC, EY | Co-founder and Board Member, Agentics Foundation**
 
 *AI Architecture, Engineering, Design and Build*
 
