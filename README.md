@@ -29,7 +29,7 @@ I combine practical AI engineering, product design and strategic leadership. I d
 ### 🚀 Current Work
 
 - **Cognitum**: Applied Agentic AI Engineer
-- **MedHubAI**: Co-Founder and CTO. Production conversational AI for healthcare and clinic operations, with evaluation for clinical safety, accuracy, hallucination risk and compliance
+- **MedHubAI**: Co-Founder and CTO. Production conversational agents for clinic operations that cut patient no-shows by about 35%, with evaluation for clinical safety, accuracy, hallucination risk and compliance
 - **brandguideAI**: Co-Founder and Agentic AI Engineer. Conversational brand-building platform with multimodal RAG over 1,000+ PDF pages and 90%+ relevant source attribution
 - **Agentics Foundation**: Board Member, London Chapter Co-Founder, Research Committee Chair, Educator
 - **Rockborne**: Claude Code curriculum producer for clinical and compliance teams at a US medical publisher
@@ -39,15 +39,22 @@ Recent: Agentic AI context engineering instructor for enterprise developer cohor
 
 ### 🏦 Background
 
-15+ years in product and UX leadership across financial services, government and healthcare: HSBC, EY, NatWest Markets, BNY Mellon (via Digiterre) and Nortal (including Saudi Arabia's General Authority of Statistics).
+15+ years in product and UX leadership across financial services, government and healthcare: HSBC, EY, NatWest Markets, BNY Mellon (via Digiterre), Publicis Sapient, Coca-Cola and Nortal (including Saudi Arabia's General Authority of Statistics).
 
 ### 🎤 Speaking & Teaching
 
-- AI Summit Budapest 2025: Agentic AI in Healthcare Communication
-- PromptUX 2025 Berlin: Security and Compliance in the EU
-- Service Design Day Budapest: Designing the full patient journey with AI agents
-- Mentor at Designlab (Generative AI / UX Academy) and Prjctr (AI for Better Results)
-- Earlier talks at Lloyds Bank Innovation Lab and UX Crunch (2017), Techstars mentor (2015)
+- **O'Reilly Media**: live online course author and presenter
+- **AI Summit Budapest 2026**: presenter
+- **AE Global Summit, London (Oct 2025)**: selected community ambassador
+- **Service Design Day Budapest (Oct 2025)**: Designing the full patient journey with AI agents
+- **AI Summit Budapest (Sep 2025)**: Agentic AI in Healthcare Communication
+- **PromptUX Berlin (Apr 2025)**: featured speaker, Security and Compliance in the EU
+- **Agentics Foundation**: workshops, London meetups and hackathons
+- **Training**: HelloYellow AI Bootcamp, Prjctr Institute design leader AI workshop, SEEN Group staff training, Pollen Network "Demystifying AI" series; mentor at Designlab since 2016
+- **Research**: AnnaAI peer-reviewed paper, indexed in PubMed and Google Scholar
+- **Earlier**: first AI talk "Banking and UX: A Design Revolution" on emotional UI at The Trampery, London (May 2017); Lloyds Bank Innovation Lab and UX Crunch (2017); Techstars mentor (2015)
+
+Writing: weekly Substack on practical AI for builders and leaders, a YouTube podcast, and LinkedIn. Launched AIdesign.Tools, one of the first AI design knowledge bases (2021, archived).
 
 ### 🤝 Let's Connect
 
